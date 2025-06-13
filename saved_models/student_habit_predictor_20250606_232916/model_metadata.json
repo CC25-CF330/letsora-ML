@@ -1,0 +1,28 @@
+{
+  "model_name": "student_habit_predictor",
+  "timestamp": "20250606_232916",
+  "features_count": 5,
+  "features": [
+    "study_efficiency",
+    "total_screen_time",
+    "sleep_quality_score",
+    "academic_lifestyle",
+    "exam_score"
+  ],
+  "target_variables": [
+    "study_hours_per_day",
+    "sleep_hours",
+    "social_media_hours",
+    "netflix_hours"
+  ],
+  "model_architecture": "enhanced_autoencoder",
+  "description": "Model untuk prediksi kebiasaan mahasiswa berdasarkan 5 fitur terpilih",
+  "save_method": "simple_model_saver",
+  "compatible_formats": [
+    ".keras",
+    ".h5",
+    "SavedModel",
+    "weights+architecture"
+  ],
+  "tensorflow_version": "2.19.0"
+}

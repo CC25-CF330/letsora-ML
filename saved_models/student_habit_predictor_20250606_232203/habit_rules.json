@@ -1,0 +1,74 @@
+{
+  "study_hours_per_day": {
+    "base": 4.0,
+    "factors": {
+      "exam_score": {
+        "weight": 0.05,
+        "optimal": 80
+      },
+      "attendance_percentage": {
+        "weight": 0.03,
+        "optimal": 90
+      },
+      "mental_health_rating": {
+        "weight": 0.2,
+        "optimal": 8
+      },
+      "academic_lifestyle": {
+        "weight": 0.3,
+        "optimal": 2
+      }
+    }
+  },
+  "sleep_hours": {
+    "base": 7.5,
+    "factors": {
+      "mental_health_rating": {
+        "weight": 0.2,
+        "optimal": 8
+      },
+      "exercise_frequency": {
+        "weight": 0.1,
+        "optimal": 3
+      },
+      "age": {
+        "weight": -0.1,
+        "optimal": 20
+      }
+    }
+  },
+  "social_media_hours": {
+    "base": 2.0,
+    "factors": {
+      "total_screen_time": {
+        "weight": 0.4,
+        "optimal": 3
+      },
+      "mental_health_rating": {
+        "weight": -0.1,
+        "optimal": 8
+      },
+      "academic_lifestyle": {
+        "weight": -0.2,
+        "optimal": 2
+      }
+    }
+  },
+  "netflix_hours": {
+    "base": 1.5,
+    "factors": {
+      "total_screen_time": {
+        "weight": 0.3,
+        "optimal": 3
+      },
+      "study_efficiency": {
+        "weight": -0.05,
+        "optimal": 20
+      },
+      "mental_health_rating": {
+        "weight": 0.1,
+        "optimal": 7
+      }
+    }
+  }
+}
